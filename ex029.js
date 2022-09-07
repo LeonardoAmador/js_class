@@ -22,6 +22,6 @@ if (tri) {
     var x = n1 + n2 + n3;
     console.log('Perimetro = ' + x.toFixed(1));
 } else {
-    var x2 = square.((n1 + n2) * n3) / 2;
+    var x2 = ((n1 + n2) * n3) / 2;
     console.log('Area = ' + x2.toFixed(1));
 }
