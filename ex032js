@@ -1,0 +1,16 @@
+let input = require('fs').readFileSync('entrada.txt', 'utf8');
+let lines = input.split('\n');
+let A = lines.shift();
+let B = lines.shift();
+let cont = 0;
+let x = 0;
+let y = 0; 
+
+while(cont < A){
+  B <= 20 && B >= 10 ? y++ : x++;
+  cont++;      
+  B = lines.shift();
+  }
+
+console.log(`${x} in`);
+console.log(`${y} out`);
